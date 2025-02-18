@@ -1,0 +1,27 @@
+/* Active Menu and Submenu Styling */
+.custom-menu .ant-menu-item-selected,
+.custom-menu .ant-menu-submenu-title-selected {
+  color: #ffffff !important;
+  background: none !important;
+}
+
+.custom-menu .ant-menu-item {
+  color: #dee4df !important;
+}
+
+.custom-menu .ant-menu-submenu-title {
+  color: #dee4df !important;
+}
+
+.custom-menu .ant-menu-item:hover,
+.custom-menu .ant-menu-submenu-title:hover {
+  color: #ffffff !important;
+}
+.custom-checkbox .ant-checkbox-inner {
+  border-color: #FF8548;
+}
+
+.custom-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #FF8548;
+  border-color: #FF8548;
+}
